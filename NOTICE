@@ -1,0 +1,11 @@
+LaPage Playwright CLI Skill
+Copyright 2026 LaPage Digital
+
+This product includes the Playwright CLI agent skill (SKILL.md and
+references/*.md) from https://github.com/microsoft/playwright-cli,
+Copyright (c) Microsoft Corporation, licensed under the Apache License,
+Version 2.0.
+
+Modifications by LaPage Digital: LaPage branding and metadata, a GitHub
+update check (scripts/check-update.mjs), browser profile and credential
+conventions, and headed-mode guidance.

@@ -1,0 +1,7 @@
+interface:
+  display_name: "lapage-playwright-cli"
+  short_description: "Automate browsers with Playwright CLI"
+  icon_small: "./assets/lapage-digital-mark.png"
+  icon_large: "./assets/lapage-digital-mark.png"
+  brand_color: "#F47A32"
+  default_prompt: "Use $lapage-playwright-cli to open, inspect, and automate this web page."

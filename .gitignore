@@ -1,0 +1,16 @@
+.DS_Store
+Thumbs.db
+
+node_modules/
+coverage/
+.memory/
+
+.env
+.env.*
+!.env.example
+
+codex-imagen-output/
+out/
+generated/
+*.log
+codex-imagen*.jsonl

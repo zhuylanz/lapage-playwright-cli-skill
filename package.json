@@ -1,0 +1,37 @@
+{
+  "name": "lapage-playwright-cli",
+  "version": "1.0.0",
+  "private": true,
+  "description": "LaPage Digital agent skill for browser automation with Playwright CLI.",
+  "homepage": "https://github.com/zhuylanz/lapage-playwright-cli-skill#readme",
+  "bugs": {
+    "url": "https://github.com/zhuylanz/lapage-playwright-cli-skill/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhuylanz/lapage-playwright-cli-skill.git"
+  },
+  "author": "LaPage Digital",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "lapage": {
+    "skill": "lapage-playwright-cli",
+    "upstream": "https://github.com/microsoft/playwright-cli",
+    "upstreamVersion": "0.1.15"
+  },
+  "scripts": {
+    "check": "node --check scripts/check-update.mjs && node scripts/check-update.mjs --help >/dev/null",
+    "test": "node --test scripts/check-update.test.mjs",
+    "check-update": "node scripts/check-update.mjs --force"
+  },
+  "keywords": [
+    "playwright",
+    "playwright-cli",
+    "browser-automation",
+    "agent-skill",
+    "lapage"
+  ],
+  "license": "Apache-2.0"
+}
